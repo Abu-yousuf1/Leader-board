@@ -1,0 +1,105 @@
+/* body style */
+
+body {
+    background-color: #E5E5E5;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+/* main style */
+
+main {
+    background-color: #FFFFFF;
+    width: 870px;
+    height: 1150px;
+}
+
+/* section style */
+
+section {}
+
+/* top leader style */
+
+.leader-title h2 {
+    color: #562EFF;
+    margin: 30px 30px;
+}
+
+.leaders {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.leaders .leader {
+    display: flex;
+    padding: 30px;
+}
+
+.leaders .leader img {
+    width: 56px;
+    height: 56px;
+    margin-right: 20px;
+}
+
+/* top blog */
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.blogs .blog {
+    display: flex;
+    padding: 30px;
+}
+
+.blogs .blog img {
+    width: 177px;
+    height: 117px;
+    margin-right: 20px;
+}
+
+.blogs .blog h1 {
+    font-size: 20px;
+}
+
+/* Lates course */
+
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    justify-content: center;
+}
+
+.courses .course img {
+    width: 224px;
+    height: 104px;
+}
+
+.course-details .course-title h1 {
+    font-size: 20px;
+}
+
+.icons {
+    display: flex;
+    padding-top: 20px;
+}
+
+.icon-style .fas {
+    color: #FFC014;
+}
+
+.icon-style span {
+    color: #A2A2A2;
+}
+
+.clock {
+    padding-right: 70px;
+    padding-left: 20px;
+}
